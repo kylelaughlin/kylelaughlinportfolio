@@ -123,3 +123,50 @@ ul {
   border-color: #666666;
   border-width: thin;
 }
+
+.board {
+  margin: auto;
+}
+
+.board-tile {
+  width: 75px;
+  height: 75px;
+}
+
+.row-1 {
+  border-bottom-style: solid;
+  border-bottom-color: #666666;
+  border-bottom-width: medium;
+}
+
+.row-2 {
+  border-bottom-style: solid;
+  border-bottom-color: #666666;
+  border-bottom-width: medium;
+}
+
+.col-1 {
+  border-right-style: solid;
+  border-right-color: #666666;
+  border-right-width: medium;
+}
+
+.col-2 {
+  border-right-style: solid;
+  border-right-color: #666666;
+  border-right-width: medium;
+}
+
+.reset-container:hover {
+  cursor: pointer;
+}
+
+.place-x {
+  color: #b56969;
+  font-size: 2em;
+}
+
+.place-o {
+  color: #469991;
+  font-size: 2em;
+}
