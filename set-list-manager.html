@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kyle's Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Custom javascript -->
+    </script src="script.js"></script>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Kyle's Portfolio</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle"
+              data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Projects <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="set-list-manager.html">Set List Manager</a></li>
+              <li><a href="neighborly.html">Neighborly</a></li>
+              <li><a href="tic-tac-toe.html">Javascript</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    <div class="wrapper text-center">
+      <h1 class="lighter-font m-t-20">Set List Manager</h1>
+      <hr>
+      <div class="row">
+        <div class="col-md-7 text-center">
+          <img src="images/set_list_demo.gif" class="full-width">
+        </div>
+        <div class="col-md-5 text-center">
+          <p>
+            This application was written to help my classic rock cover band manage
+            our growing number of set lists. It was built using jQuery's drag and
+            drop/sortable list functionality. Javascript event listeners fire upon
+            a change to each set list producing an ajax request to update the database
+            with new order of songs in each set.
+          </p>
+          <h3>Technology Utilized</h3>
+          <p>Javascript/jQuery</p>
+          <p>Ajax</p>
+          <p>Sinatra</p>
+          <p>MVC Architecture</p>
+          <p>Custom HTML/CSS</p>
+          <h4><a href="https://github.com/kylelaughlin/set-list-management">
+            Click Here For GitHub Repo
+          </a></h4>
+          <h4><a href="https://aqueous-springs-45245.herokuapp.com">
+            Click Here For Deployed Project
+          </a></h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
